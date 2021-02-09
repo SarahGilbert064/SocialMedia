@@ -5,9 +5,18 @@ import PostList from "./PostList.js"
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <PostList />
+    <div className='row'>
+      <div className ='col-4'>
+        <div className='box1'>
+          <Header />
+        </div>
+      </div>
+      <div className='col-4'>
+        <PostList />
+      </div>
+    </div>
     </React.Fragment>
+
   );
 }
 

@@ -6,7 +6,7 @@ const masterPostList = [
     name: "Joe",
     date: "2/8/2021", 
     content: "I don't want to go to the career services meeting today.",
-    imgUrl: require("./../img/GooseSelfie.jpg")
+    imgUrl: require("./../img/attack.png")
   },
   {
     name: "Alfred",
